@@ -1,24 +1,25 @@
 # AES-256-GCM File Encryptor
 
-## 📌 Жоба туралы (About)
-Бұл жоба Java тілінде әзірленген файлдарды жоғары деңгейде шифрлау және шифрын шешу (Encrypt/Decrypt) бағдарламасы. Жобаның негізгі мақсаты — құпия деректерді заманауи криптографиялық стандарттар арқылы сыртқы қауіптерден қорғау.
+## About Project
+This project is developed in Java for secure file encryption and decryption using modern cryptographic algorithms. The primary objective is to protect confidential user data from unauthorized access through industry-standard encryption protocols.
 
-## ⚙️ Қолданылатын технологиялар (Technologies):
-- **Java (JDK):** Бағдарламаның негізгі логикасы жазылатын орта.
-- **Maven:** Жобаның тәуелділіктерін (dependencies) және құрылымын басқару жүйесі.
-- **Java Cryptography Architecture (JCA):** Криптографиялық операцияларға арналған стандартты кітапхана.
-- **AES-256 (Advanced Encryption Standard):** 256-биттік кілт арқылы симметриялы шифрлау алгоритмі.
-- **GCM (Galois/Counter Mode):** Шифрлаумен қатар деректердің бүтіндігін (integrity) қатар тексеретін режим.
-- **PBKDF2WithHmacSHA256:** Парольді қауіпсіз криптографиялық кілтке айналдыру (Key Derivation Function).
-- **SecureRandom:** Әр шифрлау сайын уникем кездейсоқ тұз (Salt) мен вектор генерациялау.
+## Technologies Used
+- **Java (JDK):** Core programming language for the application logic.
+- **Maven:** Build automation and dependency management tool.
+- **Java Cryptography Architecture (JCA):** Standard cryptographic framework.
+- **AES-256:** Symmetric encryption algorithm providing high-level data security.
+- **GCM (Galois/Counter Mode):** Authenticated encryption mode ensuring both confidentiality and data integrity.
+- **PBKDF2WithHmacSHA256:** Secure password-based key derivation function.
+- **SecureRandom:** Cryptographically strong pseudo-random number generator for salt and initialization vectors.
 
-## 🛠️ Атқарылған жұмыстар (Progress):
-- Құпия сөзден криптографиялық кілт алу логикасы (`PBKDF2WithHmacSHA256`) сәтті іске қосылды.
-- Қауіпсіз кездейсоқ тұз (`Salt`) пен `SecureRandom` генерациясы конфигурацияланды.
-- Жобаның теориялық негіздері (`RESEARCH.md`) мен бастапқы құжаттамасы толық рәсімделді.
-- Презентация материалы әзірленіп, репозиторийге қосылды.
+## Project Progress
+- Implemented cryptographic key derivation logic using `PBKDF2WithHmacSHA256`.
+- Configured secure salt generation and initialization routines via `SecureRandom`.
+- Prepared theoretical research documentation (`RESEARCH.md`) detailing cryptographic primitives.
+- Integrated project presentation materials (`AES-256 GCM File Encryptor.pdf`) into the repository.
 
-## 📬 Байланыс (Contact)
+## Contact Information
+- **Student:** Bakytzhan Auyelbek
+- **Group:** IS 24-08K
 - **Email:** bakytzhan.auyelbek@gmail.com
-- **Student Group:** ИС 24-08К (КазНАИУ)
 -
