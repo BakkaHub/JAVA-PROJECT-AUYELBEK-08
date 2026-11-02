@@ -12,3 +12,6 @@
 - Құпия сөзден криптографиялық кілт алу логикасы (PBKDF2WithHmacSHA256) іске қосылды.
 - Қауіпсіз кездейсоқ тұз (Salt) пен SecureRandom генерациясы конфигурацияланды.
 
+## Байланыс (Contact)
+- Email: bakytzhan.auyelbek@gmail.com
+-
