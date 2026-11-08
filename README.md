@@ -1,25 +1,20 @@
-# AES-256-GCM File Encryptor
+# AES-256-GCM File & Text Encryptor
 
-## About Project
-This project is developed in Java for secure file encryption and decryption using modern cryptographic algorithms. The primary objective is to protect confidential user data from unauthorized access through industry-standard encryption protocols.
+## Мақсаты
+Бұл жоба Java тілінде JCA (`javax.crypto`) стандартты криптографиялық кітапханаларын қолдана отырып, мәтіндер мен кез келген файлдарды **AES-256-GCM** алгоритмі арқылы қауіпсіз шифрлау және дешифрлауға арналған графикалық қосымша (GUI Application).
 
-## Technologies Used
-- **Java (JDK):** Core programming language for the application logic.
-- **Maven:** Build automation and dependency management tool.
-- **Java Cryptography Architecture (JCA):** Standard cryptographic framework.
-- **AES-256:** Symmetric encryption algorithm providing high-level data security.
-- **GCM (Galois/Counter Mode):** Authenticated encryption mode ensuring both confidentiality and data integrity.
-- **PBKDF2WithHmacSHA256:** Secure password-based key derivation function.
-- **SecureRandom:** Cryptographically strong pseudo-random number generator for salt and initialization vectors.
+## Қолданылған технологиялар мен алгоритмдер
+* **Java 17**, **Maven**, **Java Swing** (Графикалық интерфейс)
+* **AES-256-GCM (Galois/Counter Mode):** Симметриялы шифрлау стандарты және аутентификация.
+* **PBKDF2WithHmacSHA256:** Пайдаланушы енгізген құпия сөзден күшті 256-биттік кілт туындату.
+* **SecureRandom:** Кездейсоқ Salt пен IV (Initialization Vector) генерациялау.
 
-## Project Progress
-- Implemented cryptographic key derivation logic using `PBKDF2WithHmacSHA256`.
-- Configured secure salt generation and initialization routines via `SecureRandom`.
-- Prepared theoretical research documentation (`RESEARCH.md`) detailing cryptographic primitives.
-- Integrated project presentation materials (`AES-256 GCM File Encryptor.pdf`) into the repository.
+## Қолдану мысалы (Қалай іске қосады?)
+1. Жобаны IntelliJ IDEA арқылы ашыңыз.
+2. `Main.java` файлындағы `main` әдісін **Run** етіңіз.
+3. Пайда болған терезеден **Мәтін шифрлау** немесе **📁 Файл шифрлау** бөлімін таңдаңыз.
+4. Құпия сөзді енгізіп, шифрлау немесе дешифрлау түймесін басыңыз.
 
-## Contact Information
-- **Student:** Bakytzhan Auyelbek
-- **Group:** IS 24-08K
-- **Email:** bakytzhan.auyelbek@gmail.com
--
+## Қауіпсіздік ескертпесі
+* Құпия кілттер мен парольдер репозиторийге қатаң түрде сақталмайды (`.gitignore` арқылы қорғалған).
+*
